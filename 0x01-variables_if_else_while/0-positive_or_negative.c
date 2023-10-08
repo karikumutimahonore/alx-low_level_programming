@@ -13,24 +13,24 @@
 
 int main(void)
 {
-    int n;
+	int n;
 
-    /* Seed the random number generator with the current time */
-    srand(time(0));
+	/* Seed the random number generator with the current time */
+	srand(time(0));
 
-    /* Generate a random number and assign it to n */
-    n = rand() - RAND_MAX / 2;
+	/* Generate a random number and assign it to n */
+	n = rand() - RAND_MAX / 2;
 
-    /* Check if n is positive */
-    if (n > 0)
-        printf("%d is positive\n", n);
-    /* Check if n is zero */
-    else if (n == 0)
-        printf("%d is zero\n", n);
-    /* If n is neither positive nor zero, it's negative */
-    else
-        printf("%d is negative\n", n);
+	/* Check if n is positive */
+	if (n > 0)
+		printf("%d is positive\n", n);
+	/* Check if n is zero */
+	else if (n == 0)
+		printf("%d is zero\n", n);
+	/* If n is neither positive nor zero, it's negative */
+	else
+		printf("%d is negative\n", n);
 
-    return (0);
+	return (0);
 }
 
