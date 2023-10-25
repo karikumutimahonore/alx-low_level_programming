@@ -6,11 +6,10 @@ int is_prime_number(int n);
 /**
  * is_divisible - function that returns 1
  * if the input integer is a prime number,
- * otherwise return 0.
  * @index: checked number.
  * @divider: The divisor.
  *
- * Return: 0 otherwise 1.
+ * Return: (0).
  */
 int is_divisible(int index, int divider)
 {
@@ -28,7 +27,8 @@ int is_divisible(int index, int divider)
  * if the input integer is a prime number,
  * otherwise return 0.
  * @n: checked number.
- * Return: 0 otherwise 1. 
+ * Return: if rem is 0 return 0,
+ * if rem not 0 return 1.
  */
 int is_prime_number(int n)
 {
