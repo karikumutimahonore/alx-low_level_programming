@@ -10,8 +10,7 @@ int is_prime_number(int n);
  * @index: checked number.
  * @divider: The divisor.
  *
- * Return: if rem is 0 return 0, 
- *         if rem not 0 return 1.
+ * Return: 0 otherwise 1.
  */
 int is_divisible(int index, int divider)
 {
@@ -29,9 +28,7 @@ int is_divisible(int index, int divider)
  * if the input integer is a prime number,
  * otherwise return 0.
  * @n: checked number.
- *
- * Return: if rem is 0 return 0, 
- *         if rem not 0 return 1.
+ * Return: 0 otherwise 1. 
  */
 int is_prime_number(int n)
 {
