@@ -1,7 +1,6 @@
 #include "main.h"
-#include <stdio.h>
 #include <stdlib.h>
-#include <string.h>
+#include <stdio.h>
 
 int find_len(char *str);
 char *create_xarray(int size);
@@ -13,7 +12,7 @@ void add_nums(char *final_prod, char *next_prod, int next_len);
  * find_len - Finds the length of a string.
  * @str: The string to be measured.
  *
- * Return: The length of the string.
+ * Return: length of string.
  */
 int find_len(char *str)
 {
