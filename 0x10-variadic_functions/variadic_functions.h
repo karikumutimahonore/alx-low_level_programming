@@ -2,7 +2,7 @@
 #define VARIADIC_FUNCTIONS_H
 
 /*
- * Desc: Header file that containing all prototypes 
+ * Desc: Header file that containing all prototypes
  * used in this variadic functions project.
  */
 
